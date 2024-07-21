@@ -1,13 +1,11 @@
-# Predicting Late Delivery Risk in Supply Chain Management
+# Supply Chain Management
 
 ## Overview
-Efficient supply chain management is crucial for maintaining operational effectiveness, customer satisfaction, and competitive advantage in any business. One of the key challenges in supply chain management is the risk of late deliveries, which can disrupt production schedules, increase costs, and damage customer relationships. Accurately predicting the risk of late deliveries enables businesses to take proactive measures, mitigate potential delays, and ensure timely fulfillment of orders.
-
-This project aims to develop a robust and reliable predictive model that can accurately identify orders at high risk of being delivered late.
+This project aims to develop a robust and reliable predictive model that can accurately identify orders at high risk of being delivered late. By analyzing various factors from the dataset, supply chain managers can anticipate delays and take proactive measures to ensure timely fulfillment of orders.
 
 ## Objectives
 - Develop a predictive model to identify the risk of late deliveries in the supply chain.
-- Analyze various factors from the dataset to help supply chain managers anticipate delays.
+- Analyze various factors to help supply chain managers anticipate delays.
 - Create a web interface to interact with the predictive model.
 
 ## Dataset Description
@@ -79,5 +77,42 @@ The dataset contains various attributes related to the supply chain, including o
 
 ## Setup Instructions
 1. Clone the repository:
-   ```bash
-   git clone <repository_url>
+    ```bash
+    git clone https://github.com/22ad085/Supply-Chain-Management-.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd Supply-Chain-Management-
+    ```
+3. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+4. Run the Flask application:
+    ```bash
+    python app.py
+    ```
+
+## Model Training and Evaluation
+- Various machine learning models were evaluated, including Logistic Regression, Naive Bayes, XGBoost, AdaBoost, KNN, and Decision Tree.
+- The dataset was split into training and testing sets using an 80-20 split.
+- Label encoding and target encoding were implemented for categorical features.
+- The Decision Tree model was selected for final deployment based on its high AUC score and balanced precision-recall trade-off.
+
+## Web Interface
+The web application's user interface is designed using four HTML templates: `index.html`, `result.html`, `error.html`, and `about_us.html`, with Flask serving as the framework to manage the backend functionality.
+
+## Expected Outcomes
+- A cleaned and preprocessed dataset ready for model training.
+- A report detailing the exploratory data analysis and feature engineering steps.
+- A trained predictive model with comprehensive evaluation metrics.
+- Practical insights and recommendations aimed to improve supply chain productivity.
+- A robust and reliable late delivery risk prediction model with a web interface.
+
+## Contributors
+- ThangaMuthuMari Preethi M (Ramco Institute of Technology)
+- Karthika Lakshmi (Ramco Institute of Technology)
+- Keerthana Devi M (Thiagarajar College of Engineering)
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
