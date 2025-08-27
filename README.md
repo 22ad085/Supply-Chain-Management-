@@ -35,13 +35,18 @@ Examples of attributes used:
 - Flask application with HTML templates for input and output (index.html, result.html, error.html, about_us.html).
 - REST API endpoint (/predict) providing JSON output.
 - Deployed on Render for live access.
-
+- 
 ## Screenshots
-Add screenshots into a `screenshots/` folder and embed them here. Example:
 
-![Home Page](screenshots/home.png)
-![Prediction Result](screenshots/result.png)
-![API JSON Output](screenshots/json.png)
+### Prediction Page
+![Prediction Page](screenshots/prediction.jpg)
+
+### About Us Page
+![About Us Page](screenshots/aboutus.jpg)
+
+### Result Page
+![Result Page](screenshots/result.png)
+
 
 ## Setup Instructions
 1. Clone the repository:
