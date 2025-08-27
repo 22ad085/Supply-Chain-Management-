@@ -39,14 +39,13 @@ Examples of attributes used:
 ## Screenshots
 
 ### Prediction Page
-![Prediction Page](screenshots/prediction.jpg)
+![Prediction Page](prediction.jpg)
 
 ### About Us Page
-![About Us Page](screenshots/aboutus.jpg)
+![About Us Page](aboutus.jpg)
 
 ### Result Page
-![Result Page](screenshots/result.png)
-
+![Result Page](result.png)
 
 
 ## Setup Instructions
