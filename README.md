@@ -35,7 +35,7 @@ Examples of attributes used:
 - Flask application with HTML templates for input and output (index.html, result.html, error.html, about_us.html).
 - REST API endpoint (/predict) providing JSON output.
 - Deployed on Render for live access.
-- 
+
 ## Screenshots
 
 ### Prediction Page
