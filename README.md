@@ -48,6 +48,7 @@ Examples of attributes used:
 ![Result Page](screenshots/result.png)
 
 
+
 ## Setup Instructions
 1. Clone the repository:
     ```bash
